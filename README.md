@@ -50,8 +50,6 @@ Additional pandoc options can be provided in the Jekyll `_config.yml`:
 ```
 pandoc:
   extensions:
-    - normalize
-    - smart
     - mathjax
     - csl: _styles/apa.csl
     - bibliography: bibliography/references.bib
